@@ -1,0 +1,246 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 10px auto 20px;
+}
+.container {
+    display: flex;
+    height: 60px;
+}
+.container a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+}
+.container li {
+    display: inline;
+    list-style-type: none;
+}
+.container a:hover {
+    border-bottom: 2px solid rgb(0, 34, 14);
+    transition: 1s all ease-out;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-left: 300px;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.button :hover {
+    background-color: #a19e9a;
+}
+.profile {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.box {
+    margin: 0 331.5px;
+    padding: 48px 0;
+}
+.heading {
+    color: #803e00;
+    font: 31.412px playfair display;
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 10px;
+}
+.paragrapgh {
+    font: 19px libre Franklin;
+    color: rgb(128, 62, 0);
+}
+.outerbox {
+    background-color: #f4f2ef;
+    width: 100%;
+    height: 190px;
+}
+.screen {
+    background-color: #180d0d;
+    width: 100%;
+    height: 1000%;
+}
+.grid {
+    width: 200px;
+    background-color: pink;
+}
+#menu {
+    background-color: #180d0d;
+    color: white;
+    border-radius: 10px;
+    font: 19px libre Franklin;
+    padding: 0 30px 0 15px;
+    font-weight: 500px;
+    width: 250px;
+    height: 50px;
+    /* display: flex; */
+}
+.topdownmenu {
+    padding: 16px 0 0;
+    display: block;
+}
+.navigation {
+    padding: 16px 0 0;
+    margin: 0 331.5px;
+}
+.menuitems {
+    /* display: flex; */
+    justify-content: center;
+    padding: 18px 0;
+}
+.menuitems li {
+    list-style-type: none;
+    display: inline;
+}
+.menuitems a {
+    text-decoration: none;
+    text-align: center;
+    font: 19px libre Franklin;
+    color: #ffecbb;
+    padding: 14px;
+    display: inline-block;
+}
+.menuitems a:hover {
+    border-bottom: 2px solid #ffecbb;
+    transition: 1s all ease-in;
+}
+hr {
+    border-bottom: 0.25px solid white;
+    margin-top: 10px;
+}
+.gridcontainer {
+    display: grid;
+    gap: 10px;
+    padding: 16px 24px;
+    grid-template-columns: auto auto;
+    background-color: #180d0d;
+    justify-content: center;
+}
+.gridcontainer > div {
+    background-color: rgb(181, 181, 199);
+    font-size: 20px;
+    border-radius: 4px;
+}
+.grid {
+    padding: 16px 24px;
+    background-color: #ffff;
+    width: 550px;
+    height: 90px;
+}
+h5 {
+    font: 16px Playfair Display;
+    font-weight: bold;
+}
+p {
+    font: 16px Libre Franklin;
+    padding-top: 10px;
+}
+h2 {
+    font: 22.143px Playfair Display;
+    color: #ffecbb;
+    text-align: left;
+    margin-left: 350px;
+}
+.gridcontainer :hover {
+    background-color: rgb(160, 164, 167);
+}
+.container-alignitems {
+    padding: 48px 0;
+    margin: 0 331.5px;
+    display: flex;
+    flex-direction: column;
+}
+.container.col {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #180d0d;
+}
+
+.footerlinks li {
+    list-style-type: none;
+    display: inline;
+}
+.footerlinks a {
+    font: 18px Libre Franklin;
+    color: #ffecbb;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.para {
+    font: 24.413px Libre Franklin;
+    color: #ffecbb;
+}
+
+.leftcontainer {
+    padding: 0 8px;
+}
+#inputvalue {
+    height: 35px;
+    width: 480px;
+    border-radius: 6px;
+    background-color: #180d0d;
+    border-color: #f2f1f1;
+    padding: 0 16px;
+    color: #f2f1f1;
+    font: 16px Libre Franklin;
+}
+#inputvalue :hover {
+    border-color: #7e1b1b;
+}
+.buttonsignup {
+    height: 40px;
+    /* margin: 0 0 -8px; */
+    background-color: #ffa14a;
+    width: 90px;
+    border-radius: 6px;
+    font: 16px Libre Franklin;
+}
+.reCAPTCHA {
+    font: 16px libre franklin;
+    color: #8e8265;
+}
+a {
+    color: #625c4a;
+}
+.buttonsignup :hover {
+    background-color: #4e2703;
+}
+.rightcontainer {
+    display: flex;
+    padding: 0 8px;
+    /* margin: 0 0 0 209.38px; */
+}
+.rightcontainer li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+.containeralign-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright {
+    font: 20px Libre Franklin;
+    color: #ffecbb;
+}
